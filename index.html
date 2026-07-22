@@ -1,7 +1,3 @@
-<h1>Меня зовут <b>Милана</b></h1>
-<h2>Мне <i>17</i> лет</h2>
-<h3>Я учусь в <mark> колледже </mark></h3>
-<p>Я живу в <b>Казахстане</b><br>В городе <i><b>Алматы</b></i></p>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,32 +7,39 @@
    <title>Document</title>
 </head>
 <body>
-</body>
-</html>
+    <h1>Меня зовут <b>Милана</b></h1>
+<h2>Мне <i>17</i> лет</h2>
+<h3>Я учусь в <mark> колледже </mark></h3>
+<p>Я живу в <b>Казахстане</b><br>В городе <i><b>Алматы</b></i></p>
+
 <form action="/submit" method="post">
+    <fieldset>
+         <legend>Личная информация</legend>
+
    <label for="name">Name:</label>
    <input type="text" id="name" name="name" required> 
    <label for ="email">Email:</label>
    <input type="email" id="email" name="email" required>
    <label for="password">Password:</label>
-   <input type="password" id = password name="password"
-</form>
-</body>
-</html>
-<body>
+   <input type="password" id = "password" name="password" required>
+
    <label for="message">Message:</label>
    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br> 
-</body>
 
-
-
-<body>
    <label for="country">Country:</label>
-   <select id="country" name="country" required> // select позволяет делать выбор
-       <option value="">Select your country</option> // option это то, что можно выбрать
-       <option value="us">Russia</option>
-       <option value="ca">USA</option>
-       <option value="uk">Canada</option>
-   </select>
-</body>
+   <select id="country" name="country" required> <!-- select позволяет делать выбор -->
+       <option value="">Select your country</option>  <!-- option — это то, что можно выбрать -->
+       <option value="russia">Russia</option>
+       <option value="america">USA</option>
+       <option value="canada">Canada</option>
+</select>
+ <br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+  
+   </fieldset>
+   </form>
+   </body>
+   </html>
+   
 
