@@ -1,17 +1,17 @@
 p {
-    color: rgb(161, 92, 36);
-    font-size: 35px;
-    text-align: center;
-    font-weight: bold;
-    padding: 15px;
+    color: rgb(161, 92, 36); /* цвет
+    font-size: 35px; /* размер текста */
+    text-align: center; /*перемещает текст в центр */
+    font-weight: bold; /* размер шрифта */
+    padding: 15px; /* отступ */
  } 
  
 div {
-    background-color: rgb(243, 208, 212);
-    width: 700px;
-    height: 300px;
+    background-color: rgb(243, 208, 212); /* цвет фона /*/
+    width: 700px; /* ширина */
+    height: 300px; /* высота */
     border: 5px solid rgb(116, 73, 34);
-    border-radius: 10%;
+    border-radius: 10%; /* закругляет */
 }
 
 h1 {
