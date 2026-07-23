@@ -1,5 +1,5 @@
 p {
-    color: rgb(161, 92, 36); /* цвет
+    color: rgb(161, 92, 36); /* цвет */
     font-size: 35px; /* размер текста */
     text-align: center; /*перемещает текст в центр */
     font-weight: bold; /* размер шрифта */
@@ -22,4 +22,5 @@ h1 {
     padding: 15px;
  }
  
+
 
