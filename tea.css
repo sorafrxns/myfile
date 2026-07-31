@@ -1,0 +1,9 @@
+.button:hover {
+    background-color: #87f3ca;
+    color: #8f5229
+ }
+ 
+ .button:focus {
+    border-color: #ffa8ba;
+    color: #8f5229
+ }
