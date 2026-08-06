@@ -1,0 +1,28 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(255, 159, 189);
+}
+.block {
+    padding: 10px;
+    display: block;
+    background-color: rgb(255, 174, 187);
+    border: 3px solid rgb(133, 73, 24);
+}
+
+.inline {
+    padding: 10px;
+    display: inline;
+    background-color: rgb(125, 255, 223);
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: left;
+    align-content: center;
+}
