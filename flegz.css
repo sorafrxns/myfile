@@ -11,6 +11,7 @@
     display: block;
     background-color: rgb(255, 174, 187);
     border: 3px solid rgb(133, 73, 24);
+    
 }
 
 .inline {
@@ -25,4 +26,23 @@
     justify-content: space-between;
     align-items: left;
     align-content: center;
+}
+
+.hello {
+    height: 100px;
+    background-color: rgb(255, 159, 189);
+    flex-grow: 1
+}
+
+
+.bye {
+    height: 100px;
+    background-color: rgb(146, 105, 71);
+    flex-basis: 50px;
+}
+
+.what {
+    height: 100px;
+    background-color: rgb(255, 87, 140);
+    flex: 1 0.5 100px;
 }
