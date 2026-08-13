@@ -46,3 +46,31 @@
     background-color: rgb(255, 87, 140);
     flex: 1 0.5 100px;
 }
+
+
+.oleg {
+    background-color: rgb(127, 160, 209);
+    flex-grow: 1
+}
+
+.mongol {
+    background-color: rgb(58, 78, 189);
+    flex-shrink: 1;
+}
+
+.privet {
+background-color: rgb(53, 12, 150);
+flex-basis: 100px
+}
+
+.Links {
+    display:flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.gallery {
+    display:flex;
+    width: 100px;
+    height: 100px;
+}
