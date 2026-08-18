@@ -74,3 +74,15 @@ flex-basis: 100px
     width: 100px;
     height: 100px;
 }
+
+.hello {
+    flex: 1 1 100px
+}
+
+.onion {
+    flex-grow: 0.5;
+}
+
+.poka {
+    flex-basis: 120px;
+}
