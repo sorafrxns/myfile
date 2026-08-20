@@ -1,23 +1,22 @@
 body {
-    font-family:cursive;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(234, 243, 234);
+    background-color: #EDEEF1;
 }
 
 header {
     background-color: #ffffff;
-    padding: 12px 40px 12px;
+    padding: 13px 8px 14px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1.5px solid rgb(135, 172, 137);
 }
 
 .block {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 31px;
 }
 
 .buttons {
@@ -25,16 +24,49 @@ header {
     justify-content: center;
 }
 
-.nav {
+.hola {
     display: flex;
     align-items: center;
     gap: 32px;
 }
 
-.nav a {
+.hola a {
     text-decoration: none;
     font-size: 15px;
     font-weight: 500px;
     line-height: 15px;
     color: #242424;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+border: none;
+background-color: #EDEEF1;
+height: 28px;
+width: 309px;
+border: 1px;
+border-radius: 8px;
+padding: 4px;
+border-color: #D3D5DC;
+}
+
+.search input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+}
+
+.search img {
+margin-left: 6px;
+}
+
+
+.water {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 2px;
 }
