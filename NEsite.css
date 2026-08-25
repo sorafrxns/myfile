@@ -80,7 +80,10 @@ margin-left: 6px;
 
 
 
+
 .header2 {
+    width: 1,280px;
+    height: 64px;
     display: flex;
     justify-content: space-between;
     background-color: #131313;
@@ -90,3 +93,47 @@ margin-left: 6px;
     color:#E5E2E1;
 }
 
+
+.icons [src="rb avatar.png"] {
+    border: 1px solid #5D3F3B;
+    border-radius: 50%;
+}
+
+
+.header2 .search {
+    width: 512px;
+    height: 45px;
+    border: 1px solid #5D3F3B;
+    background-color: #353534;
+    border-radius: 8px;
+    margin-left: 76.49px;
+}
+
+.header2 .search {
+    color: white;
+}
+
+.header2 .icons {
+    margin-left: 76.5px;
+    gap: 24px;
+}
+
+
+.header2 .hola {
+    gap: 16px;
+}
+
+
+a.home {
+color: #E5E2E1;
+border-bottom: 2px solid #E2231A;
+padding-bottom: 4px;
+}
+
+a.discover {
+    color: #E7BDB7;
+}
+
+a.avatar {
+    color: #E7BDB7;
+}
