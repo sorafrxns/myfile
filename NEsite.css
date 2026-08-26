@@ -80,12 +80,11 @@ margin-left: 6px;
 
 
 
-
 .header2 {
-    width: 1,280px;
-    height: 64px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    height: 64px;
     background-color: #131313;
 }
 
@@ -137,4 +136,15 @@ a.discover {
 
 a.avatar {
     color: #E7BDB7;
+    padding-right: 31.1px;
 }
+
+.header2 .logo {
+    padding-left: 32px;
+}
+
+.search input {
+    width: 100%;
+    color: #E7BDB7;
+}
+
