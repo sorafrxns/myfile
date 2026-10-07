@@ -18,13 +18,14 @@
 
 
 .title {
+    margin-left: 15px;
     font-weight: 800;
-    font-weight: 942px;
+    line-height: 56px;
     height: 56px;
     font-size: 48px;
     color: #E5E2E1;
-    padding-top: 34px;
-    padding-bottom: 8px;
+    padding-top: 1px;
+    padding-bottom: 5px;
     line-height: 56px;
     letter-spacing: -0.96px;
     vertical-align: middle;
@@ -33,6 +34,8 @@
 }
 
 .subtitle {
+    margin-left: 15px;
+    padding-bottom: 20px;
     color: #E7BDB7;
     font-weight: 400;
     font-size: 18px;
@@ -42,13 +45,30 @@
 }
 
 .btn {
+    border-radius: 8px;
+    margin-top: 20px;
     background-color: #201F1F;
     border: 1px solid #5D3F3B;
     color: #E5E2E1;
 }
 
 .button {
+    border-radius: 8px;
     background-color: #201F1F;
     border: 1px solid #5D3F3B;
     color: #E5E2E1;
+}
+
+.btn img {
+    border-color: transparent;
+    transform: rotate(1deg);
+    width: 20px;
+    height: 20px;
+}
+
+.button img {
+    border-color: transparent;
+    transform: rotate(1deg);
+    width: 20px;
+    height: 20px;
 }
