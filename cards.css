@@ -46,7 +46,7 @@
 
 .btn {
     border-radius: 8px;
-    margin-top: 20px;
+    margin-top: 2px;
     background-color: #201F1F;
     border: 1px solid #5D3F3B;
     color: #E5E2E1;
@@ -71,4 +71,42 @@
     transform: rotate(1deg);
     width: 20px;
     height: 20px;
+}
+
+.container2 {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 236px;
+    height: 223px;
+    gap: 12px;
+}
+
+.container2 img {
+    margin-top: 10px;
+    width: 236px;
+    height: 144px;
+    border-radius: 12px;
+}
+
+
+.title2 {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #E5E2E1;
+}
+
+
+.subtitle2 {
+    background-color: #00000099;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 10x;
+}
+
+.subtitle3 {
+    color: #E7BDB7;
 }
