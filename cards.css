@@ -74,6 +74,7 @@
 }
 
 .container2 {
+    margin-top: 85px;
     background-color: #000000;
     display: flex;
     flex-direction: column;
@@ -85,6 +86,7 @@
 }
 
 .container2 img {
+    position: relative;
     margin-top: 10px;
     width: 236px;
     height: 144px;
@@ -93,6 +95,10 @@
 
 
 .title2 {
+    position: absolute;
+    top: 510px;
+    vertical-align: middle;
+    line-height: 28px;
     font-size: 20px;
     margin-left: 10px;
     color: #E5E2E1;
@@ -100,13 +106,50 @@
 
 
 .subtitle2 {
+    border-radius: 4px;
+    position: absolute;
+    top: 468px;
+    margin-left: 8px;
+    vertical-align: middle;
     background-color: #00000099;
+    padding: 5px 10px;
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
-    font-size: 10x;
+    font-size: 10px;
 }
 
 .subtitle3 {
+    position:absolute;
+    top: 540px;
+    margin-left: 30px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #E7BDB7;
+}
+
+.icon img {
+    position: absolute;
+    top: 542px;
+    margin-left: 20px;
+}
+
+
+.container3 img{
+    display: flex;
+    margin-left: 57px;
+    border: 1px solid #5D3F3B;
+    border-radius: 12px;
+}
+
+.title3 {
+    color: #E5E2E1;
+}
+
+.subtitle4 {
+    color: #E7BDB7;
+}
+
+.subtitle5 {
     color: #E7BDB7;
 }
