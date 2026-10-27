@@ -1,15 +1,20 @@
-.block {
-    display: block;
-    background-color: #d62c2c;
-    margin: 10px 0;
-    padding: 10px;
-    display: inline;
- }
- 
-  .inline {
-    display: inline;
-    background-color: rgb(60, 141, 60);
-    margin: 0 5px;
-    padding: 5px;   
-    display: block;
+body{
+  padding: 25px;
+  background-color: rgb(254, 252, 246);
   }
+
+.text {
+  color: rgb(58, 41, 29);
+background-color: rgb(250, 218, 224);
+width: fit-content;
+position: static;
+}
+
+.text1 {
+  background-color: rgb(121, 79, 57);
+  color: rgb(249, 203, 224);
+  width: fit-content;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
