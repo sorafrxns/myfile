@@ -7,19 +7,20 @@ height: 119px;
 display: flex;
 flex-direction: row;
 align-items: center;
-gap: 50px;
+gap: 40px;
 }
 
 .title {
-    font-size: 17px;
+    font-size: 34px;
     line-height: 27px;
     display: flex;
 flex-direction: column;
 margin-right: 750px;
-margin-left: 100px;
+margin-left: 50.58px;
 }
 
 .subtitle {
+    font-size: 17px;
     color: #118DA8;
     font-family:serif;
     display: flex;
@@ -27,16 +28,112 @@ flex-direction: column;
 }
 
 .subtitle1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-family: sans-serif;
     color: white;
 }
 
-.subtitle2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.subtitle2 {    font-size: 17px;
+    font-family: sans-serif;
     color: white;
 }
 
 .subtitle3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-family: sans-serif;
     color: white;
+}
+
+
+
+
+
+
+.containers {
+    background-color: #191919;
+    width: 1440px;
+    height: 2088px;
+}
+
+
+.subtitle4 {
+    line-height: 79.2px;
+    font-size: 46px;
+    letter-spacing: 2.88px;
+    color: white;
+    margin-left: 70px;
+    font-weight: 400;
+}
+
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    border-radius: 32px;
+    width: 1300px;
+    height: 545px;
+    margin-left: 110px;
+    color: white;
+}
+
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+
+.title3 {
+    font-family: sans-serif;
+    margin-top: 168px;
+    margin-left: 53px;
+    font-size: 64px;
+    letter-spacing: 2.56px;
+    line-height: 70.4px;
+    font-weight: 400;
+}
+
+.subtitle5 {
+    background-color: #191919;
+    width: 73px;
+    height: 27px;
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+
+.subtitle6 {
+    display: flex;
+    color: #118DA8;
+    font-weight: 400;
+}
+
+.subtitle7 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.subtitle8 {
+    color: white;
+    background-color: #118DA8;
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+    font-size: 18px;
+    position: fixed;
+    top: 706px;
+    left: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 27px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.img {
+    margin-left: 40px;
+    margin-top: 40px;
 }
