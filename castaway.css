@@ -80,14 +80,14 @@ flex-direction: column;
 
 .container4 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-family: sans-serif;
+    margin-bottom: 40.44px;
+    margin-left: 53px;
 }
 
 .title3 {
     font-family: sans-serif;
-    margin-top: 168px;
-    margin-left: 53px;
     font-size: 64px;
     letter-spacing: 2.56px;
     line-height: 70.4px;
@@ -95,6 +95,7 @@ flex-direction: column;
 }
 
 .subtitle5 {
+    margin-top: 48px;
     background-color: #191919;
     width: 73px;
     height: 27px;
@@ -110,23 +111,22 @@ flex-direction: column;
 }
 
 .subtitle7 {
+    color: #FFFFFFB2;
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
 }
 
 .subtitle8 {
+    margin-top: 40px;
     color: white;
     background-color: #118DA8;
     width: 208px;
     height: 51px;
     border-radius: 6px;
     font-size: 18px;
-    position: fixed;
-    top: 706px;
-    left: 600px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
     line-height: 27px;
     font-family: sans-serif;
