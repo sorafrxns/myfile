@@ -404,35 +404,39 @@
 
 
 
-
-.castawayimg {
+.images {
+    position: relative;
+    top: 66.11px;
+    left: 70px;
     display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    margin-left: 70px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
+
 .pages {
-    margin-left: 233px;
     color: white;
     font-weight: 400;
     font-size: 17px;
     line-height: 27px;
+    position: absolute;
+    left: 533px;
 }
 
 .pages2 {
-    margin-left: 333px;
     color: white;
     font-weight: 400;
     font-size: 17px;
     line-height: 27px;
+    position: absolute;
+    left: 727px;
 }
 
 .socials {
-    margin-top: 23px;
+    margin-top: 20px;
     margin-left: 70px;
 }
 
 .coloredsocials {
-    margin-left: 533px;
+    margin-left: 922px;
 }
