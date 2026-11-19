@@ -432,11 +432,15 @@
     left: 727px;
 }
 
-.socials {
-    margin-top: 20px;
-    margin-left: 70px;
-}
 
 .coloredsocials {
-    margin-left: 922px;
+    margin-top: 13px;
+    margin-right: 70px;
 }
+
+.socials {
+    position: absolute;
+    top: 70px;
+    right: 990px;
+}
+
