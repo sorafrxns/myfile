@@ -33,3 +33,22 @@
 .list-item:last-child {
    color: rgb(209, 27, 66)
 }
+
+.blocks a:hover {
+    color: #ff0055;
+}
+
+
+.blocks p:first-child:hover {
+    background-color: rgb(255, 214, 229);
+    font-weight: bold;
+    color: rgb(98, 65, 48);
+}
+
+.block input:last-child:focus {
+    border: 3px solid #ffa6bc;
+    background-color: rgb(251, 251, 244);
+    border-radius: 8px;
+    outline: none;
+}
+
