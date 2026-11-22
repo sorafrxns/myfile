@@ -1,4 +1,5 @@
 body{
+    min-height: 800px;
     padding: 25px;
     background-color: rgb(248, 240, 236);
     }
@@ -16,11 +17,19 @@ body{
     color: rgb(249, 203, 224);
     width: fit-content;
      position: relative;   /*элемент остается на месте но его можно немного сдвинуть через top left И тд */
-    top: 700px;
+    top: 100px;
     left: 20px;
   }
   
   
+.container {
+    position: relative;
+    left: 100px;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(241, 220, 111);
+}
+
   .text2 {
     background-color: rgb(202, 253, 238);
     width: fit-content;
@@ -35,7 +44,7 @@ body{
     width: fit-content;
     position: fixed;
     bottom: 100px;
-     right: 1200px; /*текст закрепляется в определенном месте */
+     right: 20px; /*текст закрепляется в определенном месте */
   }
   
   
@@ -44,4 +53,5 @@ body{
     color: white;
     background-color: rgb(175, 140, 117);
     position: sticky;   /*заголовок прилипает к верхней части страницы при прокрутке*/ 
+    top: 0;
 }
