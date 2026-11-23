@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EDEEF1;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.hola {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.hola a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #242424;
+    margin-left: 22.02px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+border: none;
+background-color: #EDEEF1;
+width: 309px;
+height: 28px;
+border-radius: 8px;
+padding: 4px;
+border: 1px solid #D3D5DC;
+}
+
+.search input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+}
+
+.search img {
+margin-left: 6px;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 8px;
+}
+
+.icons img[src="zero.png"] {
+    margin-left: -5px;
+}
+
+
+
+
+
+
+.header2 {
+    width: 1,280px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #131313;
+}
+
+.header2 a {
+    color:#E5E2E1;
+}
+
+
+.icons [src="rb avatar.png"] {
+    border: 1px solid #5D3F3B;
+    border-radius: 50%;
+}
+
+
+.header2 .search {
+    width: 512px;
+    height: 45px;
+    border: 1px solid #5D3F3B;
+    background-color: #353534;
+    border-radius: 8px;
+    margin-left: 76.49px;
+}
+
+.header2 .search {
+    color: white;
+}
+
+.header2 .icons {
+    margin-left: 76.5px;
+    gap: 24px;
+}
+
+
+.header2 .hola {
+    gap: 16px;
+}
+
+
+a.home {
+color: #E5E2E1;
+border-bottom: 2px solid #E2231A;
+padding-bottom: 4px;
+margin-top: 4px;
+}
+
+a.discover {
+    color: #E7BDB7;
+}
+
+a.avatar {
+    color: #E7BDB7;
+}
+ 
+
+
+@media (max-width: 400px) {
+    .search {
+        display: none;
+    }
+    .hola {
+        display: none;
+    }
+    .header {
+        width: 390px;
+        background-color: red;
+    }
+}
