@@ -326,10 +326,15 @@ a.avatar {
 
 
 
+
+
+
 @media (max-width: 400px) {
+
     .search {
         display: none;
     }
+
 
     .hola {
         display: none;
@@ -351,7 +356,79 @@ a.avatar {
     .subtitle {
         display: none;
     }
+
+    .setting {
+        display: none;
+    }
+
+    .iconRB {
+        display: none;
+    }
+
+    .notification {
+        margin-left: 114px;
+        display: flex;
+    }
+
+    .robloxred {
+        width: 82px;
+        height: 28px;
+    }
+
+    .card {
+        border: none;
+        width: 358px;
+        height: 104px;
+        border-left: 4px solid #E2231A;
+        border-radius: 12px;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .title {
+        margin-top: 48px;
+        vertical-align: middle;
+        font-weight: 700;
+        line-height: 32px;
+        font-size: 24px;
+        letter-spacing: 0px;
+        width: 306px;
+        height: 32px;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .imagecastle {
+        width: 160px;
+        height: 160px;
+    }
+
+
+    .image1 {
+        width: 160px;
+        height: 160px;
+    }
+
+
+    .image2 {
+        width: 160px;
+        height: 160px;
+    }
+
+    .image3 {
+        width: 160px;
+        height: 160px;
+    }
+
+
 }
+
+
+
 
 
 
@@ -431,16 +508,13 @@ a.avatar {
 
 
 
-
-
-
-
-
-
+.p2class {
+    margin-left: 4px;
+}
 
 
 .container3 {
-        border: 1px solid #5D3F3B;
+    border: 1px solid #5D3F3B;
     margin-left: 40px;
     margin-top: 24px;
     background-color: #2A2A2A;
@@ -480,7 +554,7 @@ a.avatar {
 }
 
 .main1 {
-    
+
     display: grid;
     grid-template-columns: 286px 286px 286px 286px;
     gap: 17px;
